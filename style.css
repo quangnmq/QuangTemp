@@ -132,3 +132,9 @@ a { color: inherit; text-decoration: none; }
 @media (max-width: 760px) {
   .featured-art-image>img { min-height: 220px; }
 }
+
+/* Article artwork for food storage post */
+.post-art-image { display:block; background:#e9f1e5; }
+.post-art-image img { display:block; width:100%; height:100%; object-fit:cover; }
+.article-cover-image { margin:0; height:clamp(220px,38vw,390px); overflow:hidden; background:#e9f1e5; }
+.article-cover-image img { display:block; width:100%; height:100%; object-fit:cover; }
